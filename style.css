@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header
+{
+    padding:30px;
+    background-color: rgb(27, 27, 27);
+}
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    background-color: pink;
+}
+li{
+    list-style-type: none;
+}
+button
+{
+    border-radius:5px;
+    padding:7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    width:100px;
+}
+button:disabled{
+    background-color: gray;
+    color: white;
+}
